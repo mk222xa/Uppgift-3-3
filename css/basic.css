@@ -7,7 +7,7 @@ body
 
 #container 
 {
-    max-width: 643px;
+    max-width: 600px;
     margin:0 auto;
     font-family:Verdana, sans-serif;
     border: 1px solid #cecab9;        
@@ -23,6 +23,56 @@ body
     color: #eae7d2;
 }
 
+#menu:before {
+    content:" ";
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url("pics/coffey.jpg");
+}
+
+#menu {
+    background: #51473d;
+    border-bottom: 1px solid #ffffff;
+}
+#menu ul {
+    overflow: auto;
+    padding: 4px 10px 0;
+    margin: 0;
+    top: 1px;
+    position: relative;
+}
+#menu li {
+    list-style: none;
+    text-transform: capitalize;
+    float: left;
+    border-bottom: 1px solid #ffffff;
+}
+#menu .active {
+    border-color: #eae7d2;
+}
+#menu a {
+    display: inline-block;
+    padding: 8px 20px 7px;
+    background: #797066;
+    color: #eae7d2;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: .8em;
+    border-right: 1px solid #51473d;
+}
+#menu a:hover {
+    background: #9C9084;
+}
+#menu .active a {
+    background: #eae7d2;
+    color: #797066;
+    margin-top: 1px;
+    padding-bottom: 6px;
+}
+#menu > a {
+    display: none;
+}
 #content
 {
     background: #eae7d2;
@@ -32,7 +82,7 @@ body
 #maincontent
 {
     float:left;
-    width:355px;
+    width:350px;
     padding: 0 10px;
     margin-top: 20px;
     border-right: 1px dashed #c0c0c0;
@@ -48,7 +98,7 @@ body
 {
     font-size:14px;
     line-height:1.5;
-    margin-top:10px;        
+    margin-top:10px;       
 }
 
 #maincontent h1
@@ -61,7 +111,7 @@ body
 #subcontent
 {
     float:right;
-    width:225px;
+    width:210px;
     margin-top:20px;
     padding-left:10px;
 }
@@ -75,7 +125,7 @@ body
 subcontent h2
 {
     font-size:14px;
-    margin:24px
+    margin:24px;
 }
 
 #subcontent p
@@ -83,6 +133,18 @@ subcontent h2
     margin:20px;
     font-size:10px;
     line-height:2;    
+}
+
+#subcontent ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#subcontent ul a 
+{
+    color: #797066;
+    font-size:12px;
 }
 
 #bottomcontent
