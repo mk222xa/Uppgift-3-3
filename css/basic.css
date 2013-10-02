@@ -22,3 +22,39 @@ body
     padding: 4px 2px;
     color: #eae7d2;
 }
+
+#content
+{
+    background: #eae7d2;
+    color:#797066; 
+}
+
+#maincontent
+{
+    float:left;
+    width:355px;
+    padding: 0 10px;
+    margin-top: 20px;
+    border-right: 1px dashed #c0c0c0;
+}
+
+#maincontent img
+{
+    float:left;
+    margin-right: 5px;
+}
+
+#maincontent p
+{
+    font-size:14px;
+    line-height:normal;
+    margin-top:10px;        
+}
+
+#maincontent h1
+{
+    margin-bottom:10px;
+    font-size:32px;
+}
+
+
