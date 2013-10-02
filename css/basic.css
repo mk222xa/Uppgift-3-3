@@ -1,1 +1,6 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body
+{
+    /* Background color extracted using GIMP 2*/
+    background: #eae7d2;
+    margin 10px;
+}
