@@ -4,3 +4,12 @@ body
     background: #eae7d2;
     margin 10px;
 }
+
+#Container 
+{
+    width: 643px;
+    margin: 0 auto;
+    font-family:Verdana, sans-serif;
+    border: 1px solid #cecab9;        
+}
+
