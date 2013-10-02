@@ -2,13 +2,13 @@ body
 {
     /* Background color (and all other colors) extracted using GIMP 2*/
     background: #eae7d2;
-    margin 10px;
+    margin: 10px;
 }
 
 #Container 
 {
-    width: 643px;
-    margin: 0 auto;
+    width:643px;
+    margin:0 auto;
     font-family:Verdana, sans-serif;
     border: 1px solid #cecab9;        
 }
@@ -47,7 +47,7 @@ body
 #maincontent p
 {
     font-size:14px;
-    line-height:normal;
+    line-height:1.5;
     margin-top:10px;        
 }
 
@@ -58,3 +58,29 @@ body
 }
 
 
+#subcontent
+{
+    float:right;
+    width:225px;
+    margin-top:20px;
+    padding-left:10px;
+}
+
+#subcontent h1
+{
+    font-size:16px;
+    margin: 10px;
+}
+
+subcontent h2
+{
+    font-size:14px;
+    margin:24px
+}
+
+#subcontent p
+{
+    margin:20px;
+    font-size:10px;
+    line-height:2;    
+}
