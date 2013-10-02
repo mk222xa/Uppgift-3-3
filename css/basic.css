@@ -1,13 +1,13 @@
 body
 {
     /* Background color (and all other colors) extracted using GIMP 2*/
-    background: #eae7d2;
+    background: #fcfaf4;
     margin: 10px;
 }
 
-#Container 
+#container 
 {
-    width:643px;
+    max-width: 643px;
     margin:0 auto;
     font-family:Verdana, sans-serif;
     border: 1px solid #cecab9;        
@@ -83,4 +83,33 @@ subcontent h2
     margin:20px;
     font-size:10px;
     line-height:2;    
+}
+
+#bottomcontent
+{
+    clear:both;
+    font-style:italic;
+    font-size:8px;
+    padding: 10px 10px 15px;
+    visibility:hidden;
+}
+
+#bottomcontent:before {
+    content: "© Högskolan i Kalmar, Institutionen för kommunikation och design";
+    visibility: visible;
+}
+
+h1 
+{
+    margin:0;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+}
+
+h2
+{
+    margin:0;
+    font-size:16px;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
 }
