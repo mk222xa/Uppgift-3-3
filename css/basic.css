@@ -1,6 +1,6 @@
 body
 {
-    /* Background color extracted using GIMP 2*/
+    /* Background color (and all other colors) extracted using GIMP 2*/
     background: #eae7d2;
     margin 10px;
 }
@@ -13,3 +13,12 @@ body
     border: 1px solid #cecab9;        
 }
 
+#topbar
+{
+    background: #51473d;
+    text-align:right;
+    font-style:italic;
+    font-size:10px;
+    padding: 4px 2px;
+    color: #eae7d2;
+}
