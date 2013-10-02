@@ -22,7 +22,7 @@ body
     padding: 4px 2px;
     color: #eae7d2;
 }
-
+/* Create a pseudoelement with :before to get the background. */
 #menu:before {
     content:" ";
     display: block;
@@ -82,7 +82,7 @@ body
 #maincontent
 {
     float:left;
-    width:350px;
+    width:340px;
     padding: 0 10px;
     margin-top: 20px;
     border-right: 1px dashed #c0c0c0;
@@ -96,7 +96,7 @@ body
 
 #maincontent p
 {
-    font-size:14px;
+    font-size:13px;
     line-height:1.5;
     margin-top:10px;       
 }
@@ -111,9 +111,9 @@ body
 #subcontent
 {
     float:right;
-    width:210px;
+    width:230px;
     margin-top:20px;
-    padding-left:10px;
+    padding-left:2px;
 }
 
 #subcontent h1
